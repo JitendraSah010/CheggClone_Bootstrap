@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chegg Clone</title>
+</head>
+
+<body>
+  <!--start Navbar section -->
+  <section>
+    <nav class="  navbar navbar-expand-lg fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-2 text-primary" href="#">Chegg</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse part1 " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Books
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Study
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Career
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link active fw-bold text-black" aria-current="page" href="#">CheggMate</a>
+            </li>
+          </ul>
+          <form class="d-flex part3 " role="search">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">For educators</a>
+                </li>
+                <span class="nav-sep">|</span>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">Help</a>
+                </li>
+                <span class="nav-sep">|</span>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">Sign In</a>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--End Navbar section -->
+
+  <!-- start Searchbar section -->
+  <section>
+    <div class="search-container text-center mb-4 search-margin">
+      <input class="search" type="text" placeholder="Find books, solutions, and more...">
+      <button class="btn btn-primary rounded-pill text-white fw-bold px-3">Search</button>
+    </div>
+  </section>
+  <!-- end Searchbar section -->
+
+  <!--Start Carousal image section -->
+  <section>
+    <div class="container-fluid small ">
+      <div class="row">
+        <div class=" col-12 img-container">
+          <div class="content">
+            <h5 class="text-white fw-bold mb-4">FROM FIRST DAY TO FINALS</h5>
+            <h1 class="text-white fw-bold success">Success in every step</h1>
+            <p class="text-white fs-4">Stay on top of it with homework help, exam prep & writing support—tailored to
+              your courses.</p>
+            <button class="btn m-0 btn-primary fw-bold rounded-pill text-white fs-4">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- start Responsive for 4k screen -->
+    <section>
+      <div class="container big">
+        <div class="row">
+          <div class=" col-12 img-container">
+            <div class="content">
+              <h5 class="text-white fw-bold mb-4">FROM FIRST DAY TO FINALS</h5>
+              <h1 class="text-white fw-bold success">xlgxlgSuccess in every step</h1>
+              <p class="text-white fs-4">Stay on top of it with homework help, exam prep & writing support—tailored to
+                your courses.</p>
+              <button class="btn m-0 btn-primary fw-bold rounded-pill text-white fs-4">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--  End Responsive for 4k screen -->
+
+  <!--  Start For responsive part -->
+  <div class="mobile-carousal-container ">
+    <img class="carousal-img" src="img/img8.webp" alt="">
+    <h5 class="text-center m-4 fw-bold fs-6">FROM FIRST DAY TO FINALS</h5>
+    <h1 class="  text-center success-heading fw-bold">Success in every step</h1>
+    <p class="text-center mt-4 px-2">Stay on top of it with homework help, exam prep & writing support—tailored to your
+      courses.</p>
+    <div class=" text-center">
+      <button class="C-bt px-3 m-0 py-1 btn btn-primary fw-bold rounded-pill text-white">Get Started</button>
+    </div>
+  </div>
+  <!--  End For responsive part -->
+  <!--End Carousal image section -->
+
+  <!-- Start part3 -->
+  <section>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg">
+          <h1 class="fw-bold">Stay on top of your assignments</h1>
+          <p class="fs-3 mt-3 mb-5">Explore some of our 24/7 study tools</p>
+          <div class="container ">
+            <div class="part3-cards">
+              <div class="row-cols-3 d-flex justify-content-center">
+                <div class="card me-5 border-radius ">
+                  <img class="img" src="img/0309-CTFO-777_CM_PostMidtermsFinals_Testprep.webp" alt="">
+                  <h2 class="mt-4 fw-bold fs-2">Test prep, simplified</h2>
+                  <p class="p-3">Check your knowledge with practice exams and more.1</p>
+                  <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg> </a>
+                </div>
+                <div class="card me-5 border-radius">
+                  <img class="img" src="img/img3.webp" alt="">
+                  <h2 class="mt-4 fw-bold fs-2">Expert Q&As</h2>
+                  <p class="p-3">Access millions of expert solutions designed for your best study sessions.2 Learn by
+                    seeing each clear & concise step.</p>
+                  <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg> </a>
+                </div>
+
+                <div class="card border-radius ">
+                  <img class="img" src="img/img4.webp" alt="">
+                  <h2 class="mt-4 fw-bold fs-2">Essay checker</h2>
+                  <p class="p-3">Scan your essays for plagiarism, grammar, and citation mistakes. Plus, have an expert
+                    proofread your writing before it’s due.</p>
+                  <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg> </a>
+                </div>
+              </div>
+            </div>
+            <!--Start part3-card-carousal for mobile -->
+            <div id="carouselExampleIndicators" class="carousel slide part3-card-carousal">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card me-5 border-radius ">
+                    <img class="img" src="img/0309-CTFO-777_CM_PostMidtermsFinals_Testprep.webp" alt="">
+                    <h2 class="mt-4 fw-bold fs-2">Test prep, simplified</h2>
+                    <p class="p-3">Check your knowledge with practice exams and more.1</p>
+                    <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg> </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card me-5 border-radius">
+                    <img class="img" src="img/img3.webp" alt="">
+                    <h2 class="mt-4 fw-bold fs-2">Expert Q&As</h2>
+                    <p class="p-3">Access millions of expert solutions designed for your best study sessions.2 Learn by
+                      seeing each clear & concise step.</p>
+                    <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg> </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card border-radius ">
+                    <img class="img" src="img/img4.webp" alt="">
+                    <h2 class="mt-4 fw-bold fs-2">Essay checker</h2>
+                    <p class="p-3">Scan your essays for plagiarism, grammar, and citation mistakes. Plus, have an expert
+                      proofread your writing before it’s due.</p>
+                    <a href="" class="fw-bold margin mb-4">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg> </a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!--ENd part3-card-carousal for mobile -->
+          </div>
+
+          <h3 class="mt-5 pricing">Prices starting at $14.95/mo., cancel anytime</h3>
+          <button class=" mt-2 btn btn-primary fs-6 px-4 fw-bold text-white rounded-pill ms-4">Sign Up</button>
+        </div>
+        <div class="">
+          <h1 class="text-danger fw-bold mt-5 ">94% of Chegg customers say they get better grades when they use Chegg to
+            understand their coursework</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End part3 -->
+
+  <!-- Start part4 -->
+  <section>
+    <div class="container mb-5 part4">
+      <div class="row ">
+        <div class="col-5">
+          <img class="part4-img" src="img/img9.webp" alt="">
+        </div>
+        <div class="col-5">
+          <div class="studyTools">
+            <h1 class="fw-bold">Study tools for your tough courses</h1>
+            <p class="homework">Find homework help, exam prep and writing support for your full classload.</p>
+            <a href="" class="fw-bold mb-4 learnMoreLink">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Start part4 responsive -->
+    <div class="part4Responsive p-3 ">
+      <img class="part4-img border-radius" src="img/img9.webp" alt="">
+      <h1 class=" text-center m-4 fw-bold fs-1">Study tools for your tough courses</h1>
+      <p class="px-2 text-center">Find homework help, exam prep and writing support for your full classload.</p>
+      <div class="text-center">
+        <a href="" class=" fw-bold mb-4 learnMoreLink">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+          </svg> </a>
+      </div>
+    </div>
+    <!--End part4 responsive -->
+  </section>
+  <!-- End part4 -->
+
+  <!-- Start part5 -->
+  <section>
+    <div class="container mb-5 part4">
+      <div class="row justify-content-between">
+        <div class="col-5">
+          <div class="studyTools5 mt-5 text-center">
+            <h1 class="fw-bold part5">Save up to 90% on textbooks</h1>
+            <p class="homework">Rent or buy for less with Chegg.</p>
+            <a href="" class="fw-bold mb-4 learnMoreLink">Find your books <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg> </a>
+          </div>
+        </div>
+        <div class="col-5">
+          <img class="part4-img" src="img/img11.webp" alt="">
+        </div>
+      </div>
+    </div>
+    <!--Start part5 responsive -->
+    <div class="part4Responsive p-3 mt-4">
+      <img class="part4-img" src="img/img11.webp" alt="">
+      <h1 class=" text-center m-3 mt-4 fw-bold fs-1">Save up to 90% on textbooks</h1>
+      <p class="px-2 text-center">Rent or buy for less with Chegg.</p>
+      <div class="text-center">
+        <a href="" class=" fw-bold mb-4 learnMoreLink">Find your books <svg xmlns="http://www.w3.org/2000/svg"
+            width="16" height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+          </svg> </a>
+      </div>
+    </div>
+    <!--Start part5 responsive -->
+  </section>
+  <!-- End part5 -->
+
+  <!-- Start Part6 -->
+  <section>
+    <div class="container">
+      <h1 class="text-center part6h1 fw-bold">Help beyond the classroom</h1>
+      <div class="row my-5">
+        <div class="col-6 ">
+          <div class="  border-radius main-container text-white">
+            <div class="main-container-content text-center">
+              <h1 class="fw-bold">Add skills & build your resume</h1>
+              <p class="fs-5">Take courses that will help you standout in a crowded job market.</p>
+              <button class="btn btn-primary rounded-pill text-white fw-bold fs-5 m-0">Explore Careers</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 ">
+          <div class="  border-radius main-container1 text-white">
+            <div class="main-container-content text-center">
+              <h1 class="fw-bold">Get your guide to the real world</h1>
+              <p class="fs-5">Find resources to help you navigate finances, mental health & more.</p>
+              <button class="btn btn-primary rounded-pill text-white fw-bold fs-5 m-0">Explore Life</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start part6 responsive -->
+  <div class="part4Responsive p-3">
+    <img class="part4-img mt-0" src="img/img12.webp" alt="">
+    <h1 class=" text-center m-4 fw-bold fs-1">Add skills & build your resume</h1>
+    <p class=" text-center">Take courses that will help you standout in a crowded job market.</p>
+    <div class="text-center">
+      <button class="btn btn-primary rounded-pill text-white fw-bold fs-5 m-0 px-3">Explore Careers</button>
+    </div>
+  </div>
+
+  <div class="part4Responsive p-3">
+    <img class="part4-img mt-0" src="img/img13.webp" alt="">
+    <h1 class=" text-center m-4 fw-bold fs-1">Get your guide to the real world</h1>
+    <p class=" text-center">Find resources to help you navigate finances, mental health & more.</p>
+    <div class="text-center">
+      <button class="btn btn-primary rounded-pill text-white fw-bold fs-5 m-0 px-3">Explore Life</button>
+    </div>
+  </div>
+
+  <!-- End part6 responsive -->
+  <!-- End Part6 -->
+
+  <!-- Start Footer Section -->
+  <section>
+    <div class="container footerPart footer-margin">
+      <div class="row">
+        <!-- Chegg Products & Services -->
+        <div class="col-4 ">
+          <h5 class="fw-bold">Chegg Products & Services</h5>
+          <div class=" d-flex">
+            <div class="div1 w-100">
+              <p><a href="" class=" text-black  footerlinks ">CheggMate</a></p>
+              <p><a href="" class=" text-black  footerlinks">Cheap Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Life</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Play</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Study Help</a></p>
+              <p><a href="" class=" text-black  footerlinks">Citation Generator</a></p>
+              <p><a href="" class=" text-black  footerlinks">College Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Digital Access Codes</a></p>
+              <p><a href="" class=" text-black  footerlinks">eTextbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Flashcards</a></p>
+            </div>
+
+            <div class="div2  w-100">
+              <p><a href="" class=" text-black  footerlinks ">Grammar Checker</a></p>
+              <p><a href="" class=" text-black  footerlinks">Learn</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Math Solver</a></p>
+              <p><a href="" class=" text-black  footerlinks">Mobile Apps</a></p>
+              <p><a href="" class=" text-black  footerlinks">Solutions Manual</a></p>
+              <p><a href="" class=" text-black  footerlinks">Plagiarism Checker</a></p>
+              <p><a href="" class=" text-black  footerlinks">Textbook Rental</a></p>
+              <p><a href="" class=" text-black  footerlinks">Used Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">University</a></p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Company -->
+        <div class="col-3 a">
+          <h5 class="fw-bold">Company</h5>
+          <div class=" d-flex">
+            <div class="div1 w-100">
+              <p><a href="" class=" text-black  footerlinks ">About Chegg</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg For Good</a></p>
+              <p><a href="" class=" text-black  footerlinks">College Marketing</a></p>
+              <p><a href="" class=" text-black  footerlinks">Corporate Development</a></p>
+              <p><a href="" class=" text-black  footerlinks">Investor Relations</a></p>
+              <p><a href="" class=" text-black  footerlinks">Jobs</a></p>
+              <p><a href="" class=" text-black  footerlinks">Join Our Affiliate Program</a></p>
+              <p><a href="" class=" text-black  footerlinks">Media Center</a></p>
+              <p><a href="" class=" text-black  footerlinks">Site Map</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chegg Network -->
+        <div class="col-2 cheggNewtork">
+          <h5 class="fw-bold">Chegg Network</h5>
+          <div class=" d-flex">
+            <div class="div1 w-100">
+              <p><a href="" class=" text-black  footerlinks ">Busuu</a></p>
+              <p><a href="" class=" text-black  footerlinks">Citation Machine</a></p>
+              <p><a href="" class=" text-black  footerlinks">EasyBib</a></p>
+              <p><a href="" class=" text-black  footerlinks">Internships.com</a></p>
+              <p><a href="" class=" text-black  footerlinks">Mathway</a></p>
+              <p><a href="" class=" text-black  footerlinks">Thinkful</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customer Service -->
+        <div class="col ms-5 div1">
+          <h5 class="fw-bold">Customer Service</h5>
+          <div class=" d-flex">
+            <div class=" w-100">
+              <p><a href="" class=" text-black  footerlinks ">Give Us Feedback</a></p>
+              <p><a href="" class=" text-black  footerlinks">Customer Service</a></p>
+              <p><a href="" class=" text-black  footerlinks">Manage Subscription</a></p>
+            </div>
+          </div>
+          <!-- Educators -->
+          <h5 class="fw-bold mt-3">Educators</h5>
+          <div class=" d-flex">
+            <div class=" w-100">
+              <p><a href="" class=" text-black  footerlinks ">Academic Integrity</a></p>
+              <p><a href="" class=" text-black  footerlinks">Honor Shield</a></p>
+              <p><a href="" class=" text-black  footerlinks">Institute of Digital Learning</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Start Footer for mobile (responsive)-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item b">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Chegg Products & Services
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-info">
+            <strong>
+              <p><a href="" class=" text-black  footerlinks ">CheggMate</a></p>
+              <p><a href="" class=" text-black  footerlinks">Cheap Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Life</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Play</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Study Help</a></p>
+              <p><a href="" class=" text-black  footerlinks">Citation Generator</a></p>
+              <p><a href="" class=" text-black  footerlinks">College Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Digital Access Codes</a></p>
+              <p><a href="" class=" text-black  footerlinks">eTextbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">Flashcards</a></p>
+              <p><a href="" class=" text-black  footerlinks ">Grammar Checker</a></p>
+              <p><a href="" class=" text-black  footerlinks">Learn</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg Math Solver</a></p>
+              <p><a href="" class=" text-black  footerlinks">Mobile Apps</a></p>
+              <p><a href="" class=" text-black  footerlinks">Solutions Manual</a></p>
+              <p><a href="" class=" text-black  footerlinks">Plagiarism Checker</a></p>
+              <p><a href="" class=" text-black  footerlinks">Textbook Rental</a></p>
+              <p><a href="" class=" text-black  footerlinks">Used Textbooks</a></p>
+              <p><a href="" class=" text-black  footerlinks">University</a></p>
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Company
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-info">
+            <strong>
+              <p><a href="" class=" text-black  footerlinks ">About Chegg</a></p>
+              <p><a href="" class=" text-black  footerlinks">Chegg For Good</a></p>
+              <p><a href="" class=" text-black  footerlinks">College Marketing</a></p>
+              <p><a href="" class=" text-black  footerlinks">Corporate Development</a></p>
+              <p><a href="" class=" text-black  footerlinks">Investor Relations</a></p>
+              <p><a href="" class=" text-black  footerlinks">Jobs</a></p>
+              <p><a href="" class=" text-black  footerlinks">Join Our Affiliate Program</a></p>
+              <p><a href="" class=" text-black  footerlinks">Media Center</a></p>
+              <p><a href="" class=" text-black  footerlinks">Site Map</a></p>
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            Chegg Network
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-info">
+            <strong>
+              <p><a href="" class=" text-black  footerlinks ">Busuu</a></p>
+              <p><a href="" class=" text-black  footerlinks">Citation Machine</a></p>
+              <p><a href="" class=" text-black  footerlinks">EasyBib</a></p>
+              <p><a href="" class=" text-black  footerlinks">Internships.com</a></p>
+              <p><a href="" class=" text-black  footerlinks">Mathway</a></p>
+              <p><a href="" class=" text-black  footerlinks">Thinkful</a></p>
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Customer Service
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-info">
+            <strong>
+              <p><a href="" class=" text-black  footerlinks ">Give Us Feedback</a></p>
+              <p><a href="" class=" text-black  footerlinks">Customer Service</a></p>
+              <p><a href="" class=" text-black  footerlinks">Manage Subscription</a></p>
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Educators
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body bg-info">
+            <strong>
+              <p><a href="" class=" text-black  footerlinks ">Academic Integrity</a></p>
+              <p><a href="" class=" text-black  footerlinks">Honor Shield</a></p>
+              <p><a href="" class=" text-black  footerlinks">Institute of Digital Learning</a></p>
+            </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Footer for mobile (responsive)-->
+  </section>
+  <!-- End Footser Section -->
+
+  <!-- start footer part2 -->
+  <section>
+    <div class="container-fluid mt-5 bg-warning lgscreencode  SmallScreenFooter">
+      <div class="row icon-margin">
+        <div class="col-12 d-flex justify-content-between align-items-center my-3 ">
+          <div class="icon1">
+            <a href=""><img src="img/facebook.png" alt="" class="s-icon"></a>
+            <a href=""><img src="img/twitter (3).png" alt="" class="s-icon"></a>
+            <a href=""><img src="img/instagram (1).png" alt="" class="s-icon"></a>
+          </div>
+          <div class="icon1">
+            <a href=""><img src="img/AppStore-removebg-preview.png" alt="" class="a-icon"></a>
+            <a href=""><img src="img/GoogleStore-removebg-preview.png" alt="" class="a-icon"></a>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd part -->
+      <div class="col-12 d-flex justify-content-center mt-4">
+        <div class="lastpart-link">
+          <p><a href="" class=" text-black  footerlinks ">Cookie Notice</a></p>
+          <p><a href="" class=" text-black  footerlinks">Your Privacy Choices</a></p>
+          <p><a href="" class=" text-black  footerlinks">Cookies Settings</a></p>
+          <p><a href="" class=" text-black  footerlinks">General Policies</a></p>
+          <p><a href="" class=" text-black  footerlinks">Privacy Policy (New)</a></p>
+          <p><a href="" class=" text-black  footerlinks">Honor Code</a></p>
+          <p><a href="" class=" text-black  footerlinks">IP Rights</a></p>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="copyright-para pb-4">
+          &COPY; 2003-2023 Chegg Inc. All rights reserved. </p>
+      </div>
+  </section>
+
+  <!--start  footer part2 responsive -->
+  <section>
+    <div class="container-fluid p-0 smScreenCode bg-info ">
+      <div class="social-media-icobns text-center pt-4">
+        <a href=""><img src="img/facebook.png" alt="" class="s-icon"></a>
+        <a href=""><img src="img/twitter (3).png" alt="" class="s-icon"></a>
+        <a href=""><img src="img/instagram (1).png" alt="" class="s-icon"></a>
+      </div>
+      <div class="text-center pt-4 border-b">
+        <a href=""><img src="img/AppStore-removebg-preview.png" alt="" class="a-icon"></a>
+        <a href=""><img src="img/GoogleStore-removebg-preview.png" alt="" class=" ms-2 a-icon"></a>
+      </div>
+
+      <div class="l text-center px-4 py-4">
+        <a href="" class=" text-black  footerlinks me-4">Cookie Notice</a>
+        <a href="" class=" text-black  footerlinks me-4">Your Privacy Choices</a>
+        <a href="" class=" text-black  footerlinks me-3">Cookies Settings</a>
+        <a href="" class=" text-black  footerlinks me-4">General Policies</a>
+        <a href="" class=" text-black  footerlinks me-3">Privacy Policy (New)</a>
+        <a href="" class=" text-black  footerlinks me-4">Honor Code</a>
+        <a href="" class=" text-black  footerlinks me-4">IP Rights</a>
+      </div>
+
+      <div class="text-center">
+        <p class="copyright-para pb-4">
+          &COPY; 2003-2023 Chegg Inc. All rights reserved. </p>
+      </div>
+    </div>
+  </section>
+  <!--  end footer part2 responsive -->
+
+  <!-- Start responsive for 4k screen -->
+  <section>
+    <div class="container mt-5 bg-warning lgscreencode  BigScreenFooter">
+      <div class="row icon-margin">
+        <div class="col-12 d-flex justify-content-between align-items-center my-3 ">
+          <div class="icon1">
+            <a href=""><img src="img/facebook.png" alt="" class="s-icon"></a>
+            <a href=""><img src="img/twitter (3).png" alt="" class="s-icon"></a>
+            <a href=""><img src="img/instagram (1).png" alt="" class="s-icon"></a>
+          </div>
+          <div class="icon1">
+            <a href=""><img src="img/AppStore-removebg-preview.png" alt="" class="a-icon"></a>
+            <a href=""><img src="img/GoogleStore-removebg-preview.png" alt="" class="a-icon"></a>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd part -->
+      <div class="col-12 d-flex justify-content-center mt-4">
+        <div class="lastpart-link">
+          <p><a href="" class=" text-black  footerlinks ">Cookie Notice</a></p>
+          <p><a href="" class=" text-black  footerlinks">Your Privacy Choices</a></p>
+          <p><a href="" class=" text-black  footerlinks">Cookies Settings</a></p>
+          <p><a href="" class=" text-black  footerlinks">General Policies</a></p>
+          <p><a href="" class=" text-black  footerlinks">Privacy Policy (New)</a></p>
+          <p><a href="" class=" text-black  footerlinks">Honor Code</a></p>
+          <p><a href="" class=" text-black  footerlinks">IP Rights</a></p>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="copyright-para pb-4">
+          &COPY; 2003-2023 Chegg Inc. All rights reserved. </p>
+      </div>
+  </section>
+  <!-- End responsive for 4k screen -->
+
+  <!-- end footer part2 -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&family=Poppins:wght@400;500;700;800&display=swap');
+
+$font-family-sans-serif:'Poppins', sans-serif;
+$theme-colors: (
+  "primary":    rgb(235, 113, 0),
+  "success":    green,
+  "info":       rgb(244, 250, 255),
+  "warning":    rgb(221, 231, 230),
+  "danger":     red,
+  "light":      white,
+  "dark":       black
+);
+$carousel-control-color: black;
+// $carousel-indicator-active-bg: black;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

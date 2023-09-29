@@ -1,0 +1,307 @@
+.nav-link {
+    border-bottom: 4px solid white;
+    padding: 0;
+    transition: 400ms;
+}
+.nav-link:hover {
+    border-bottom: 4px solid rgb(235, 113, 0);
+    color: rgb(235, 113, 0) !important;
+}
+.card-font{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.border-radius{
+    border-radius: 16px;
+}
+/* Start part4 */
+.part4-img{
+    width: 100%;
+}
+.studyTools{
+    width: 400px;
+    margin: 120px 0px 0px 100px;
+}
+.homework{
+    font-size: 20px;
+}
+.learnMoreLink{
+    font-size: 18px;
+    text-decoration: none;
+}
+.learnMoreLink:hover{
+    border-bottom: 1.5px solid rgb(11, 121, 231);
+}
+/* End part4 */
+/* start part5 */
+.studyTools5{
+        width: 500px;
+}
+.part5{
+    margin-top: 160px;
+    text-align: left;
+    margin-left: 90px;
+}
+/* End part5 */
+/* Start part6 */
+.main-container{
+    background-image: url("../img/img12.webp");
+    background-size: cover;
+    height: 500px;
+    position: relative;    
+}
+.main-container1{
+    background-image: url("../img/img13.webp");
+    background-size: cover;
+    height: 500px;
+    position: relative;    
+}
+.main-container-content{
+    width: 400px;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.part6h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+/* End part6 */
+/* Start Footer */
+.div2{
+    margin-left: 60px;
+}
+.div1 p{
+    margin: 10px 0;
+}
+.div2 p{
+    margin: 10px 0;
+}
+.footerlinks{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    margin:30px 0;
+}
+.footerlinks:hover{
+    text-decoration:underline;
+}
+.a{
+    margin-left: 60px;
+}
+.cheggNewtork{
+    margin-left: -40px;
+}
+/* Start Footer */
+.s-icon{
+    width: 30px;
+    margin-left: 30px;
+}
+.a-icon{
+    width: 140px;
+    /* margin-right: 10px; */
+}
+.icon-margin{
+    margin: 0px 100px 0px 100px ;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.copyright-para{
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin: 0;
+}
+.lastpart-link{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    font-size: 10px;
+    font-family: "Aspira Webfont", Helvetica, Arial, sans-serif;
+}
+/* ---------------------------------------FOR LARGE SCREEN---------------------------- */
+@media(min-width:2500px){
+    .small{
+        display: none;
+    }
+    .SmallScreenFooter{
+        display: none;
+    }
+}
+@media(max-width:2400px){
+    .big{
+        display: none;
+    }
+    .BigScreenFooter{
+        display: none;
+    }
+}
+
+@media(min-width:786px) {
+  
+    .part1 {
+        margin-left: 180px;
+    }
+    .part3 {
+        gap: 10px;
+    }
+    .search {
+        width: 480px;
+        margin-top: 20px;
+        border: none;
+        border: 1px solid rgb(252, 138, 32);
+        border-radius: 8px;
+        padding: 10px;
+        outline: none;
+    }
+    .search:hover {
+        outline: 1px solid rgb(255, 216, 40);
+    }
+    .search-margin{
+        margin-top: 70px;
+    }
+    .btn {
+        margin-left: -100px;
+        margin-top: -2px;
+    }
+    /*  Start Caurosal image */
+    .img-container {
+        background-image: url("../img/0829-CTFO-533_CM_Horizon2.0Refresh_studyhero.webp");
+        height: 400px;
+        background-size: cover;
+        position: relative;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .success {
+        font-size: 50px;
+    }
+    .content {
+        width: 600px;
+        position: absolute;
+        top: 60px;
+        left: 180px;
+    }
+    .mobile-carousal-container{
+        display: none;
+    }
+    /* End Caurosal image */
+  /* Start part3 */
+  .part3-card-carousal{
+    display: none;
+}
+  /* End part3 */
+  .part4Responsive{
+    display: none;
+  }
+  .accordion{
+    display: none;
+}
+/* copy right code */
+.smScreenCode{
+    display: none;
+}
+}
+/* ----------------------------------------For small screen---------------------- */
+@media(max-width:786px) {
+  
+    .nav-sep {
+        display: none;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    .search {
+        width: 90vw;
+        margin-top: 20px;
+        border: none;
+        border: 1px solid rgb(235, 113, 0);
+        border-radius: 4px;
+        padding: 8px 8px;
+        font-size: 14px;
+        outline: none;
+    }
+    .search:hover {
+        outline: 2px solid rgb(255, 216, 40);
+    }
+    .search-margin{
+        margin-top: 70px;
+    }
+    .btn {
+        padding: 4px 0px;
+        margin-left: -100px;
+        margin-top: -1px;
+        font-size: 16px;
+    }
+    /* Start Carousals img */
+    .img-container{
+        display: none;
+    }
+    .carousal-img{
+        width: 100%;
+    }
+    .success-heading{
+        font-size: 30px;
+    }
+    .C-btn{
+        margin-left: 110px;
+    }
+    /* End Carousals img */
+    /*  Start part3-h1 */
+    .part3-cards{
+        display: none;
+    }
+    .pricing{
+        font-size: 16px;
+    }
+    /*  End part3-h1 */
+    /* Start part4 */
+    .part4Responsive{
+        display:list-item;
+    }
+    .part4{
+        display: none;
+    }
+    /* End part4 */
+    /* Start part6 */
+    .main-container{
+        display: none;
+    }
+    .main-container1{
+        display: none;
+    }
+    .part6h1{
+        margin-top:20px;
+        margin-bottom: -80px;
+        font-size: 30px;
+    }
+    /* End part6 */
+    /* Start footerPart */
+    .footerPart{
+        display: none;
+    }
+    .b{
+        border-top: none;
+    }
+    /* End footerPart */
+    /*  start Copy right part */
+    .lgscreencode{
+        display: none;
+    }
+    .s-icon{
+        width: 20px;
+        margin-left: 24px;
+    }
+    .a-icon{
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    .border-b{
+        border-bottom: 1px solid rgb(201, 201, 201);
+    }
+    .l{
+        width: 100%;
+        font-size: 10px;
+    }
+    .copyright-para{
+        font-size: 12px;
+    }
+    /* end Copy right part */
+}
